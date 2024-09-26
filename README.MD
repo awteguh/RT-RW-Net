@@ -37,12 +37,14 @@ tambahkan IP untuk ether2-PC 10.10.10.1/24 dan IP untuk bridge-wlan 11.11.11.1/2
 
 ## DHCP Server (menyebarkan IP / bagi-bagi IP yang di salurkan ke pengguna dari port ether2-PC dan bridge-wlan yang menyebarkan koneksi internet)
 pilih ke DHCP Setup
+
 ![Screenshot 2024-09-25 151457](https://github.com/user-attachments/assets/0fdca7fd-1aed-48d4-8d31-b4957afe3674)
 
 ![Screenshot 2024-09-25 151653](https://github.com/user-attachments/assets/6d5e1708-ec55-4ba0-adad-0ab9d9406c6c)
 
 ## NAT
 IP > Firewall > Nat
+
 ![Screenshot 2024-09-25 151755](https://github.com/user-attachments/assets/b4eeba9e-2de9-4e12-8974-e2db4fb20763)
 
 ![Screenshot 2024-09-25 151807](https://github.com/user-attachments/assets/7b366384-9dc6-41c7-90bf-99ce6fdc64bb)
