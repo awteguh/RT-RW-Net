@@ -12,12 +12,16 @@ untuk konfigurasinya :
 ## Bridge (Kelompokan / group port ether3, ether 4 dan wlan1 yang nantikan akan menjadi hotspot login)
 buat bridge terlebih dahulu dan sesuaikan nama yang akan di gunakan
 ![Screenshot 2024-09-25 150239](https://github.com/user-attachments/assets/c5523931-4a9d-4fe0-bab6-4a6e3ec7be14)
+
 tambahkan anggota yang akan di bridge
+
 ![Screenshot 2024-09-25 150259](https://github.com/user-attachments/assets/b6406368-8489-46b0-bb73-7a5e7fb8c0be)
 
 ## DHCP Client (meminta IP address untuk port ether1-ISP mikrotik dari ISP agar bisa akses internet)
 ![Screenshot 2024-09-25 150548](https://github.com/user-attachments/assets/2c5abf27-88b3-4434-a88a-425505bd2735)
+
 IP otomatis di berikan dari ISP ke ether1-ISP
+
 ![Screenshot 2024-09-25 150601](https://github.com/user-attachments/assets/9236ffb9-fb78-4cb9-ab17-d8647c2b1431)
 
 ## DNS Setting (
