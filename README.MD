@@ -55,11 +55,31 @@ IP > Firewall > Nat
 * pada bagian user dan password di isi sesuai yang di inginkan yang nantinya di gunakan untuk login menggunakan wifinya.
 * selanjutnya bisa dicoba untuk akses ke halaman login wifinya.
 
-## SNTP Client (sync waktu agar bisa tracking kendalan mikrotik)
+## SNTP Client (sync waktu agar bisa tracking kendala mikrotik)
 enable terlebih dahulu, untuk primary NTP Server bisa menggunakan `0.id.pool.ntp.org` dan secondary NTP Server `1.id.pool.ntp.org` atau lebih jelasnya mengakses `https://www.ntppool.org/zone/id` maka akan keluar angka-angkanya
+
 ![Screenshot 2024-09-25 152443](https://github.com/user-attachments/assets/ea309163-fa65-4706-83bd-ac18baa4e676)
 
 # Mikhmon
+Selanjutnya download Mikhmonv3 `https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/mikhmonv3ws.zip` ekstrak dan buka MikhmonServer.exe
+* Pastikan Mikhmon Server Online sudah terkoneksi ke MikroTik(otomatis terbaca)
+![Screenshot 2024-09-30 113100](https://github.com/user-attachments/assets/c91c1056-4dcf-4cc8-8343-aa9d743c310b)
+
+* Open Mikhmon, masukan user name dan pw default nya `mikhmon` dan `1234`
+
+* Pilih add Router, isi Session Name, IP MikroTik dan username serta pw nya, pada Mikhmon Data isi Hotspot Name dan DNS Name
+![Screenshot 2024-09-30 105355](https://github.com/user-attachments/assets/320c28b0-f0ff-48a0-891b-a18bc2ff8d41)
+* Save, Ping, dan Connect
+
+* Selanjutnya pilih hotspot, user profile, add profile untuk membuat profil vocher yang akan di buat 
+![Screenshot 2024-09-30 111003](https://github.com/user-attachments/assets/8e37f150-f018-42c4-947f-c5736ac5d2fb)
+
+* untuk mengGenerate vochernya, masuk dashboard lalu pilih Generate
+* Sesuaikan isi Qty, User Mode, Name Length, Prefix, Character, Profile dan Time Limit
+![Screenshot 2024-09-30 111958](https://github.com/user-attachments/assets/4c1650a7-a2ff-4c18-8799-5c7bcd3e0fbf)
+
+* Generate dan Print Vochernya, DONE!!
+![Screenshot 2024-09-30 112110](https://github.com/user-attachments/assets/1a780283-4b64-4a6f-8d3c-21445fe14dec)
 
 
 
