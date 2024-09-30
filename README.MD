@@ -66,10 +66,11 @@ Selanjutnya download Mikhmonv3 `https://raw.githubusercontent.com/laksa19/laksa1
 ![Screenshot 2024-09-30 113100](https://github.com/user-attachments/assets/c91c1056-4dcf-4cc8-8343-aa9d743c310b)
 
 * Open Mikhmon, masukan user name dan pw default nya `mikhmon` dan `1234`
-
 * Pilih add Router, isi Session Name, IP MikroTik dan username serta pw nya, pada Mikhmon Data isi Hotspot Name dan DNS Name
 ![Screenshot 2024-09-30 105355](https://github.com/user-attachments/assets/320c28b0-f0ff-48a0-891b-a18bc2ff8d41)
-* Save, Ping, dan Connect
+
+* Save, Ping, dan Connect, maka ini tampilan awal Mikhmon
+![Screenshot 2024-09-30 110714](https://github.com/user-attachments/assets/9224500d-ab76-4c92-991b-5ad92b44ca64)
 
 * Selanjutnya pilih hotspot, user profile, add profile untuk membuat profil vocher yang akan di buat 
 ![Screenshot 2024-09-30 111003](https://github.com/user-attachments/assets/8e37f150-f018-42c4-947f-c5736ac5d2fb)
